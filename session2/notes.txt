@@ -1,0 +1,25 @@
+Gradient:
+
+For a Div box if we have to give gradient colours:
+ use background: linear-gradient (straight) or radial gradient(circle)
+
+Can give as many colours as we want, and give percentages as well like (red 10%, blue)
+ 
+To change the direction in linear use (to left, red, blue) or to right or to right bottom (diagnal)
+
+
+Image Sizing:
+
+We can create a Div in html and assign an Image for it in the CSS with background-Image
+background-size: To make the image cover whole width we use cover and for height we use contain
+background-position: We use  to show what part of the image from the resized image
+
+Border:
+To give border to any prop use border:
+Border: width style colour
+Example- border: 2px solid/dotted/dashed white;
+border: none (doesnt do anything)
+
+border-radius: 5px/10px (gives curve to the border)
+can use 50% to make a circle
+
