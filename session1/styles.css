@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.hero {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #1b283c;
+  margin-bottom: 30px;
+  .hero_name {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .hero_role {
+    font-style: italic;
+    font-weight: lighter;
+  }
+}
+
+.about_me {
+  margin: 30px 50px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgb(171, 217, 246);
+  .about_heading {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  .about_content {
+    font-weight: lighter;
+    color: rgb(87, 87, 87);
+  }
+}
+
+.r_outer {
+  background-color: lightgreen;
+  margin: 30px 50px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .r_title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .r_details {
+    background-color: white;
+    width: 65%;
+    padding: 15px 30px;
+    font-weight: lighter;
+    color: rgb(87, 87, 87);
+    margin-bottom: 10px;
+  }
+}
+
+#skills {
+  background-color: rgb(249, 249, 178);
+}
+
+#projects {
+  .r_details {
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+  }
+  background-color: lightcoral;
+}
+
+#contact_me {
+  background-color: lightcyan;
+}
+
+.bottom {
+  width: 100%;
+  background-color: #1b283c;
+  padding: 20px 50px;
+  color: white;
+  text-align: center;
+  .bottom_text {
+    font-weight: lighter;
+  }
+}
