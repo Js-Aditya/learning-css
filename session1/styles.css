@@ -13,20 +13,19 @@ body {
 
 .hero {
   height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   color: white;
   background-color: #1b283c;
   margin-bottom: 30px;
   .hero_name {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    padding-top: 60px;
   }
   .hero_role {
     font-style: italic;
+    text-align: center;
     font-weight: lighter;
   }
 }
@@ -86,13 +85,13 @@ body {
 }
 
 #contact_me {
-  background-color: lightcyan;
+  background-color: lightseagreen;
 }
 
 .bottom {
   width: 100%;
   background-color: #1b283c;
-  padding: 20px 50px;
+  padding: 30px 50px;
   color: white;
   text-align: center;
   .bottom_text {
