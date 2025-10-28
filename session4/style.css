@@ -40,15 +40,18 @@ body {
 
 #nav h4 {
   color: #c2c1c1;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 350;
+  cursor: pointer;
 }
 #apple_icon {
   color: white;
+  height: 14px;
 }
 #nav_search,
 #nav_bag {
   color: #c2c1c1;
+  height: 14px;
 }
 
 #cardoffer {
